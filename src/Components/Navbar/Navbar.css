@@ -1,5 +1,31 @@
 nav{
+  width: 100%;
   position: fixed;
   left: 0; bottom: 0;
   padding: 10px;
+}
+
+.tab-wrap{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tab{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+}
+
+.tab i{
+  font-size: 20px;
+  color: #7e8082;
+}
+
+.tab span{
+  font-size: 14px;
+  font-weight: 450;
+  color: #7e8082;
 }
