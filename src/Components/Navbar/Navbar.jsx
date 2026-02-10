@@ -3,7 +3,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav>
-      this is the navigation bar.
+      <i class="fa-regular fa-house"></i>
     </nav>
   )
 }
